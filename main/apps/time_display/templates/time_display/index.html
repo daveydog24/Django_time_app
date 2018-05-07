@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Time Display</title>
+	{% load static %}
+	<link rel="stylesheet" type="text/css" href="{% static 'time_display/css/my_css.css' %}">
+</head>
+<body>
+	<div id="wraper">
+		<div class="title">
+			<p>the current time and date:</p>
+		</div>
+		<div class="time">
+			<h1>{{ Date }}</h1>
+			<h1>{{ Time }}</h1>
+		</div>
+	</div>
+</body>
+</html>
